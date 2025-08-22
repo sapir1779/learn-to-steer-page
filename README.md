@@ -1,32 +1,34 @@
 # Learn to Steer - Project Page
 
-A beautiful, modern project page built with HTML, CSS, and JavaScript, inspired by the Nerfies template design.
+A beautiful, modern project page built using the actual **Nerfies template** from [https://github.com/nerfies/nerfies.github.io](https://github.com/nerfies/nerfies.github.io), stripped down to just the essential elements.
 
 ## 🚀 Features
 
-- **Modern Design**: Beautiful gradients, shadows, and animations
+- **Authentic Nerfies Design**: Uses the exact same structure and styling as the original Nerfies project page
+- **Bulma CSS Framework**: Clean, modern CSS framework for responsive design
+- **Professional Typography**: Google Sans and Noto Sans fonts for academic presentation
 - **Responsive Layout**: Works perfectly on desktop, tablet, and mobile
-- **Smooth Animations**: Fade-in effects and smooth scrolling
-- **Professional Typography**: Clean, readable fonts with proper hierarchy
 - **Easy Customization**: Simple HTML structure for easy content updates
 
 ## 📁 File Structure
 
 ```
 learn-to-steer-page/
-├── index.html          # Main HTML file
-├── style.css           # CSS styling
-├── script.js           # JavaScript functionality
-└── README.md           # This file
+├── index.html              # Main HTML file (Nerfies structure)
+├── static/
+│   └── css/
+│       ├── bulma.min.css   # Bulma CSS framework
+│       └── index.css       # Custom Nerfies styling
+└── README.md               # This file
 ```
 
 ## 🎨 How to Customize
 
 ### 1. Basic Information
 Edit `index.html` to update:
-- Project title
-- Author names and affiliations
-- Links to paper, code, dataset, video
+- Project title in the `<h1>` tag
+- Author names and affiliations in the `publication-authors` sections
+- Links to paper, code, dataset, video in the `publication-links` section
 
 ### 2. Content Sections
 Replace the placeholder text in each section:
@@ -38,10 +40,10 @@ Replace the placeholder text in each section:
 - **References**: Bibliography and citations
 
 ### 3. Styling
-Modify `style.css` to customize:
-- Color scheme and gradients
-- Typography and spacing
-- Layout and responsive breakpoints
+Modify `static/css/index.css` to customize:
+- Color schemes
+- Typography adjustments
+- Layout modifications
 
 ## 🔄 Integration with Overleaf
 
@@ -66,7 +68,7 @@ Modify `style.css` to customize:
 
 1. **View the page**: Open `index.html` in your web browser
 2. **Customize content**: Edit the HTML file with your research content
-3. **Update styling**: Modify `style.css` to match your preferences
+3. **Update styling**: Modify the CSS files to match your preferences
 4. **Test responsiveness**: Check how it looks on different devices
 
 ## 🌐 Deployment
@@ -88,8 +90,8 @@ Modify `style.css` to customize:
 ## 🎯 Next Steps
 
 1. **Add your content**: Replace placeholder text with your research
-2. **Customize styling**: Adjust colors, fonts, and layout
-3. **Add images**: Include figures, diagrams, and results
+2. **Customize styling**: Adjust colors, fonts, and layout if needed
+3. **Add images/videos**: Include figures, diagrams, and results
 4. **Deploy**: Make it live on the web
 
 ## 📱 Browser Support
@@ -102,8 +104,8 @@ Modify `style.css` to customize:
 
 ## 🤝 Contributing
 
-Feel free to customize and improve this template for your own projects!
+This template is based on the original Nerfies project page. Feel free to customize and improve it for your own projects!
 
 ## 📄 License
 
-This template is open source and available under the MIT License.
+This template uses the same license as the original Nerfies project page (Creative Commons Attribution-ShareAlike 4.0 International License).
